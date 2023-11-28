@@ -1,0 +1,17 @@
+const [items, setItems] = useState([
+    {
+      id: 1,
+      checked: true,
+      item: "Practice coding",
+    },
+    {
+      id: 2,
+      checked: true,
+      item: "Apply for internship",
+    },
+    {
+      id: 3,
+      checked: true,
+      item: "Study for exam",
+    },
+  ]);
