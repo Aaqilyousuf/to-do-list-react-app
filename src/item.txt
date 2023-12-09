@@ -15,3 +15,12 @@ const [items, setItems] = useState([
       item: "Study for exam",
     },
   ]);
+  JSON.parse(localStorage.getItem("todo_list") || [])
+
+  npx json-server -p 3500 -w data\db.json
+
+  useEffect(() => {
+      JSON.parse(localStorage.getItem("todo_list"));
+    });
+
+  localStorage.setItem("todo_list", JSON.stringify(listItems));
