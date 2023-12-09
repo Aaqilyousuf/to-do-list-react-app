@@ -1,6 +1,6 @@
 import React from "react";
 
-function SearchItem({ search, setSearch, handleSearch }) {
+function SearchItem({ search, setSearch }) {
   return (
     <form className="searchForm" onSubmit={(e) => e.preventDefault()}>
       <label htmlFor="seacrh">Search</label>

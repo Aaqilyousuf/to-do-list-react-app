@@ -1,7 +1,7 @@
 import ItemList from "./ItemList";
 const Content = ({ items, handleChange, handleDelete }) => {
   return (
-    <main>
+    <>
       {items.length ? (
         <ItemList
           items={items}
@@ -13,7 +13,7 @@ const Content = ({ items, handleChange, handleDelete }) => {
           Hurray you have completed your all task you are in progress!
         </p>
       )}
-    </main>
+    </>
   );
 };
 export default Content;
